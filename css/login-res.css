@@ -22,12 +22,7 @@ filter: brightness(70%);
  
 }
 
-/*.all
-{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-}*/
+
 .form-box
 { 
     position:absolute;
@@ -216,24 +211,4 @@ position: relative;
     color: lightseagreen;
   }
   
-  /* Add a red text color and an "x" icon when the requirements are wrong */
-  .invalid {
-    color: red;
-  }
   
-  .invalid:before {
-    position: relative;
-    left: -35px;
-    content:"✖";
-  }
-  .form-box1
-  {
-    position:absolute;
-    width: 380px;
-    height: 350px;
-    margin: 6% auto;
-   background-color: rgba(0, 0, 0, 0.5);
-    padding: 6px;
-    overflow: hidden;
-    border-radius: 20px;
-  }
