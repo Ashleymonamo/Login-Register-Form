@@ -158,52 +158,12 @@ span{
 bottom:60px;
 font-size: 15px;
 }
-.input-grp
-{
- margin-top: 10px;   
-
-}
-.input-grp input
-{
-    width: 80%;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    
-}
-
-
-#message {
-    position: relative;
-    display:none;
-    background: #f1f1f1;
-    color: #000;
-    position: relative;
-    padding: 20px;
-    margin-top: 10px;
-    width: 60%;
-left: 150px;
-  }
-  
-  #message p {
-    padding: 10px 35px;
-    font-size: 18px;
-  }
-  
-  /* Add a green text color and a checkmark when the requirements are right */
-  .valid {
-    color: green;
-  }
-  
-  .valid:before {
-    position: relative;
-    left: -35px;
-    content: "✔";
-  }
   .input-group a
   {
+    position: relative;
     margin: 30px 10px 30px 0;
     color: white;
-position: relative;
+
 
   }
   .input-group a:hover
